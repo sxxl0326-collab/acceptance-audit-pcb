@@ -1,0 +1,134 @@
+[
+  {
+    "method": "literal_full",
+    "policies": {
+      "advisory": {
+        "valid": 56,
+        "invalid": 0,
+        "no_commit": 40,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 56,
+          "NO_FEASIBLE_GRID_DESIGN": 16
+        }
+      },
+      "empty_defer": {
+        "valid": 56,
+        "invalid": 0,
+        "no_commit": 40,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 56,
+          "NO_FEASIBLE_GRID_DESIGN": 16
+        }
+      },
+      "ewdv": {
+        "valid": 56,
+        "invalid": 0,
+        "no_commit": 40,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 56,
+          "NO_FEASIBLE_GRID_DESIGN": 16
+        }
+      }
+    },
+    "incremental_over_empty": {
+      "deferred": 0,
+      "invalid_prevented": 0,
+      "valid_withheld": 0
+    }
+  },
+  {
+    "method": "parametric_full",
+    "policies": {
+      "advisory": {
+        "valid": 41,
+        "invalid": 22,
+        "no_commit": 33,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 63,
+          "NO_FEASIBLE_GRID_DESIGN": 9
+        }
+      },
+      "empty_defer": {
+        "valid": 33,
+        "invalid": 0,
+        "no_commit": 63,
+        "deferred": 30,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 33,
+          "DEFER_EMPTY_REQUIRED_CONTRACT": 30,
+          "NO_FEASIBLE_GRID_DESIGN": 9
+        }
+      },
+      "ewdv": {
+        "valid": 33,
+        "invalid": 0,
+        "no_commit": 63,
+        "deferred": 30,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 33,
+          "DEFER_EMPTY_REQUIRED_CONTRACT": 30,
+          "NO_FEASIBLE_GRID_DESIGN": 9
+        }
+      }
+    },
+    "incremental_over_empty": {
+      "deferred": 0,
+      "invalid_prevented": 0,
+      "valid_withheld": 0
+    }
+  },
+  {
+    "method": "numeric_feedback",
+    "policies": {
+      "advisory": {
+        "valid": 50,
+        "invalid": 4,
+        "no_commit": 42,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 54,
+          "NO_FEASIBLE_GRID_DESIGN": 18
+        }
+      },
+      "empty_defer": {
+        "valid": 50,
+        "invalid": 4,
+        "no_commit": 42,
+        "deferred": 0,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 54,
+          "NO_FEASIBLE_GRID_DESIGN": 18
+        }
+      },
+      "ewdv": {
+        "valid": 49,
+        "invalid": 0,
+        "no_commit": 47,
+        "deferred": 9,
+        "statuses": {
+          "ALREADY_APPLIED": 24,
+          "COMMITTED": 49,
+          "DEFER_DIRECTION_MISMATCH": 9,
+          "NO_FEASIBLE_GRID_DESIGN": 14
+        }
+      }
+    },
+    "incremental_over_empty": {
+      "deferred": 9,
+      "invalid_prevented": 4,
+      "valid_withheld": 1
+    }
+  }
+]

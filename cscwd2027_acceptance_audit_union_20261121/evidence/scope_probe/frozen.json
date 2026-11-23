@@ -1,0 +1,278 @@
+{
+  "cases": [
+    {
+      "id": "mixed_wrong_sign",
+      "fault": "Multivariable sign",
+      "source": "Throughput must be at least 8 boards per minute. Mean cycle time plus twice the throughput reading must be at most 130 on the combined score.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            2,
+            1
+          ],
+          "cmp": "le",
+          "b": 130,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            -2,
+            1
+          ],
+          "cmp": "le",
+          "b": 130,
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "mixed_coefficient_scale",
+      "fault": "Multivariable coefficient scale",
+      "source": "Throughput must be at least 8 boards per minute. Mean cycle time plus twice the throughput reading must be at most 130 on the combined score.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            2,
+            1
+          ],
+          "cmp": "le",
+          "b": 130,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0.2,
+            1
+          ],
+          "cmp": "le",
+          "b": 130,
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "milliseconds_as_seconds",
+      "fault": "Unit conversion",
+      "source": "Throughput must be at least 8 boards per minute. Mean cycle time must be at most 100000 milliseconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 100,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 100000,
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "minutes_as_seconds",
+      "fault": "Unit conversion",
+      "source": "Throughput must be at least 8 boards per minute. Mean cycle time must be at most 1.5 minutes.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 90,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 1.5,
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "missing_cycle_cap",
+      "fault": "Silent partial omission",
+      "source": "Throughput must be at least 8 boards per minute. Mean cycle time must be at most 100 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 100,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8,
+          "cid": "s0"
+        }
+      ]
+    },
+    {
+      "id": "missing_throughput_floor",
+      "fault": "Silent partial omission",
+      "source": "Throughput must be at least 15 boards per minute. Mean cycle time must be at most 100 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 15,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 100,
+          "cid": "s1"
+        }
+      ],
+      "candidate": [
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 100,
+          "cid": "s1"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "clean",
+    "boundary_revision"
+  ],
+  "controllers": [
+    "compiled_contract",
+    "central_fresh"
+  ],
+  "policies": [
+    "advisory",
+    "ewdv"
+  ],
+  "warning_context": "Nonempty final compiled rows with no inherited Warning diagnostic.",
+  "sha256": {
+    "cscwd2027_acceptance_audit_union_20261121/scope_probe.py": "747d2630e026375402d80cbb145bf5f2d4d2e4c000b03b4a126361d64a51f515",
+    "cscwd2027_acceptance_audit_union_20261121/audit.py": "d5251906923fe0519222ffcbb384c2802cc26a287d0d72281e3814fe50e95b68",
+    "cscwd2027_acceptance_audit_direction_20261120/direction_replay.py": "21d32cf1b7fa4f94ae8238a7c228c628425fa6e6fb95c1edc331f48fc918e450",
+    "cscwd2027_audit_semantics_policy_revision_20261029/replay_policies.py": "261814acc309a4cfa60e74207960580bc8090a32e111f15128cd9a00e659438e",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/runtime.py": "7f528f0f16797e14fa7e0f9d5c152b2358df395228d494e024fd54f2d58905d4",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/simulation_table.json": "4e2e48b5cd14e7d177fe9ed607cd83bfe06ab4058a8f4420e5a2e2ad9e1c10e3",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/simulation_manifest.json": "c15f70d1e206f90a3f2701b85280e15222e9b39995477ffc0b77596bb17531eb"
+  }
+}

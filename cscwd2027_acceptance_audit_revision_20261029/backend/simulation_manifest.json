@@ -1,0 +1,52 @@
+{
+  "upstream_commit": "1cc6ad89e01a277662e68d16ca91d4cc5ef956c2",
+  "adapter_sha256": "1e42be3578968108ed3a92189d3d1034fa2f5c02f541af2b98c132c2574fd964",
+  "upstream_example_sha256": "2e9089b0bff15fb17b8de7064d56aeb94840f27d2518ed7e35bd1441a98376dd",
+  "simpy_version": "4.1.1",
+  "grid": {
+    "placer_time": [
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ],
+    "inspection_time": [
+      1.5,
+      2.5,
+      3.5
+    ],
+    "buffer_capacity": [
+      1,
+      3,
+      6
+    ]
+  },
+  "contexts": {
+    "nominal": {
+      "arrival_mean": 2.0,
+      "reflow_mean": 2.0,
+      "packing_mean": 4.0
+    },
+    "packing_slow": {
+      "arrival_mean": 2.0,
+      "reflow_mean": 2.0,
+      "packing_mean": 6.0
+    },
+    "supply_slow": {
+      "arrival_mean": 5.0,
+      "reflow_mean": 2.0,
+      "packing_mean": 4.0
+    }
+  },
+  "seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "horizon": 1800.0,
+  "warmup": 300.0,
+  "runs": 405,
+  "table_rows": 135,
+  "simulation_runs_sha256": "c6fe4309f3d87a20b8e15aae5b57bec14410df2c88f770ccfa0d2d58a6a190f5"
+}

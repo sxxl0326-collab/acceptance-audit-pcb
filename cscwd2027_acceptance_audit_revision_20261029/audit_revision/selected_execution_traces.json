@@ -1,0 +1,314 @@
+{
+  "alert_detected_formal_error_then_committed": {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "race": "boundary_revision",
+    "controller": "central_fresh",
+    "source": "Throughput must be at least 9 boards per minute. Mean cycle time must be at most 100 seconds.",
+    "source_rows": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "initial_output": {
+      "constraints": [
+        {
+          "formula": "q_throughput_s0n0*x0>=9.0",
+          "cid": "s0"
+        },
+        {
+          "formula": "q_mean_cycle_time_time_s1n0*x1<=100.0",
+          "cid": "s1"
+        }
+      ]
+    },
+    "initial_mathematical_region": {
+      "region_equal": false,
+      "missing_reference_rows": 1,
+      "spurious_candidate_rows": 1,
+      "candidate_status": 0
+    },
+    "initial_interpretation_errors": [],
+    "feedback_warnings": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "surface": "9",
+        "cid": "s0"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "surface": "100",
+        "cid": "s1"
+      }
+    ],
+    "review_output": {
+      "constraints": [
+        {
+          "formula": "q_throughput_s0n0*x0>=9.0",
+          "cid": "s0"
+        },
+        {
+          "formula": "q_mean_cycle_time_time_s1n0*x1<=100.0",
+          "cid": "s1"
+        }
+      ]
+    },
+    "final_contract": [],
+    "post_review_warnings": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "surface": "9",
+        "cid": "s0"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "surface": "100",
+        "cid": "s1"
+      }
+    ],
+    "registered_predicates": [
+      {
+        "predicate": {
+          "metric": "inspection_time",
+          "cmp": "ge",
+          "amount": 3.5,
+          "calc": "absolute",
+          "ref": "absolute",
+          "unit": "seconds"
+        },
+        "lhs": 3.5,
+        "passed": true
+      }
+    ],
+    "actual_config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "actual_planning_metrics": {
+      "throughput": 14.32,
+      "cycle_time": 113.83850810888684,
+      "wip": 28.03622222222222,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "source_valid": false,
+    "database": "6b5f3d184f3e83b4.sqlite",
+    "operations": [
+      [
+        "pcb_new:00/qwen3.5:4b/parametric_full/boundary_revision/central_fresh",
+        "COMMITTED",
+        "{\"placer_time\": 4.0, \"inspection_time\": 3.5, \"buffer_capacity\": 6}"
+      ]
+    ],
+    "state_version": 2,
+    "human_reference_status": "authored integration requirements; independent expert attestation not yet received"
+  },
+  "silent_final_checker_invalid_commit": {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "race": "boundary_revision",
+    "controller": "central_fresh",
+    "source": "The throughput must be no less than 8 boards per minute, and mean cycle time must be no more than 100 seconds. Both acceptance requirements are binding.",
+    "source_rows": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "initial_output": {
+      "constraints": [
+        {
+          "a": [
+            1.0,
+            0.0
+          ],
+          "cmp": "ge",
+          "b": 8.0,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0.0,
+            -1.0
+          ],
+          "cmp": "le",
+          "b": 100.0,
+          "cid": "s0"
+        }
+      ]
+    },
+    "initial_mathematical_region": {
+      "region_equal": false,
+      "missing_reference_rows": 1,
+      "spurious_candidate_rows": 0,
+      "candidate_status": 0
+    },
+    "initial_interpretation_errors": [],
+    "feedback_warnings": [],
+    "review_output": {
+      "constraints": [
+        {
+          "a": [
+            1.0,
+            0.0
+          ],
+          "cmp": "ge",
+          "b": 8.0,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0.0,
+            -1.0
+          ],
+          "cmp": "le",
+          "b": 100.0,
+          "cid": "s0"
+        }
+      ]
+    },
+    "final_contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          -1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      }
+    ],
+    "post_review_warnings": [],
+    "registered_predicates": [
+      {
+        "predicate": {
+          "metric": "contract_lhs_0",
+          "cmp": "ge",
+          "amount": 8.0,
+          "calc": "absolute",
+          "ref": "absolute",
+          "unit": "native"
+        },
+        "lhs": 14.32,
+        "passed": true
+      },
+      {
+        "predicate": {
+          "metric": "contract_lhs_1",
+          "cmp": "le",
+          "amount": 100.0,
+          "calc": "absolute",
+          "ref": "absolute",
+          "unit": "native"
+        },
+        "lhs": -113.83850810888684,
+        "passed": true
+      },
+      {
+        "predicate": {
+          "metric": "inspection_time",
+          "cmp": "ge",
+          "amount": 3.5,
+          "calc": "absolute",
+          "ref": "absolute",
+          "unit": "seconds"
+        },
+        "lhs": 3.5,
+        "passed": true
+      }
+    ],
+    "actual_config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "actual_planning_metrics": {
+      "throughput": 14.32,
+      "cycle_time": 113.83850810888684,
+      "wip": 28.03622222222222,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "source_valid": false,
+    "database": "90dad7fa21473c18.sqlite",
+    "operations": [
+      [
+        "pcb_new:03/qwen3.5:9b/numeric_feedback/boundary_revision/central_fresh",
+        "COMMITTED",
+        "{\"placer_time\": 4.0, \"inspection_time\": 3.5, \"buffer_capacity\": 6}"
+      ]
+    ],
+    "state_version": 2,
+    "human_reference_status": "authored integration requirements; independent expert attestation not yet received"
+  },
+  "initial_formally_correct_but_warned_invalid_commit": null
+}

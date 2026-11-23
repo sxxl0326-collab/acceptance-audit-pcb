@@ -1,0 +1,1922 @@
+[
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "f0b299235a9c2e2942cf8899.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "3eaf8d9349b0da6dd03ba0e5.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "bfbbef5863d84c5befae4a7c.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "db90f2a39c4cb0818257b1a1.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5a56559da56b96769681926e.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "23dba9d876329664effea578.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "1812e54ca80fec96364d2cdc.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4a504ac067f3efa45a5132c4.sqlite",
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "36975871a44937c9fec042ae.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "d230634a79087bf76248c8f2.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "9f55ae5031f6550c364dba69.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "74f880505155e22b9b3ce335.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "fec00ed3d1231aa451c45944.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "9ced20df4b04a36ef98acda8.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "8163b9d97944ed9ae57bd20b.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "ae4338d3b66540accee0a693.sqlite",
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "31e4c32843fbe420f500a56f.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "f5a613783a429fb2812ff23a.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "95ea47e0152ceb2455872dd3.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "bd0152e188201ba9e669e83a.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "38da46e662a49589ec72f19e.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "ad1ce29a23ac17427befac71.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "62243287c9fd9cb99da6b476.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "222952b53c3d2d25374a1354.sqlite",
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5c6ede4ebd0878d44bc2ed1e.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4f1f1c00e8c848d3451a1c4c.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "3c05a8d613d4f15cbde7eebf.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "039da61539c682574f0dca60.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "c898ec69e9ad3e68a29212ca.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4c144076f0bc6d385ff29124.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "6bf781831a7e611335d59c43.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "d3b110ca179dea91e29d11b0.sqlite",
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4a06ce9f1310e30b26a9f27c.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b47cd6f6f69d7c237733eab9.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "3974e85596dd903b50207b35.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4c14bbba035f6dcb4446b852.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "bff708fcfe376d5bafe5ca78.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "6d1d3f92cc4fef58ffd225ff.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "52c3e3ea8f27c3b2ebcf351b.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "c57d5e27516429d730886242.sqlite",
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "6b617ad59773fbf64f1a4743.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "78eadcd2795a2fd5bafcc628.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "4e0fd400714b9f4445cc7b69.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b93af5c0a95efdd657141e8f.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "0ad9ecddefc73c0b4775c384.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "32153ae54fed25fc885d3400.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "39b12f6b9aa325137f6eec60.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4daa04385c0e31974fdb5a8b.sqlite",
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "68ab411ceabd54f7282722eb.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "4c34b6bf6d2259f295cb553b.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "5426f4993b72835aa4ba9e83.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "e1c1e7ad34fa1bb59b478c64.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "dc8ff1fdcb5f23b3e3e79bce.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "database": "05f92acb47d901974247d8f6.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "f5119e38d06119cece29c879.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5af91a3cf2ebc0cea0883aa3.sqlite",
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b229489271f4f02dee7b2297.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "eb050f14ccc24bfd5268b3e2.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "23f091255761edbfe4b4613a.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5ae2f94a0e47a5e14f0b110e.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "4a58e67978acc39e77439291.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "8aa808c5cd2809e30f593d15.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "016410f16dc09de9acb1a5b2.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "7e808846bdf8449b2fc7e5bb.sqlite",
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "f04ba8bb65ef56f3ab933c32.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "27b862011522f1e9b9e82388.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "6a5fec32e5f77c99de71f1a0.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "dc77f485fca476fdcfd9f08c.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "93a19d9491d5e87b0714da4f.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5bfb21a9092203249d798994.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "database": "2fe4e93107d5bd0e7f252431.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b72f23c0f7208a381c2163a7.sqlite",
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "778da97f2cdcb3d0d9f4489d.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "031fdcbfcfd69db82e141c10.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "c3acb36e0235b1b785389838.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "daa1a34cbc3096b46eae01ab.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "c8c04c5bac1a93681a4ea138.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "85ae8595be16f1b76a31adb0.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "95316c07366c7403fccec7d0.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "a7a05e33722d3835494dcd09.sqlite",
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "abf312a1f05f7004d030458b.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b847e9eb2783a6f10d63d6f4.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "86272ff290b20ba68bb75a57.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "ef6afcdb8e9a89b933b589cf.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "2f1dc1f8cc29f127cf98aae1.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b3475dd534b935d89ab0bc69.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "a2128749fc305b2f61dc0add.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "649498318b00f2bc078b478e.sqlite",
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "9680ee32031b069957e97815.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "12a4d85ea0ba5ee6b8cdb1db.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "90c89d0ede0c5aa911da3cc8.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "b504b3d478d3d3b9014a4ba7.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "9e6aec11b70facf26de92b98.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "race": "clean",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "COMMITTED",
+    "committed": 1,
+    "valid": 1,
+    "invalid": 0,
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "aa5507b48474f93cad58f483.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "race": "boundary_revision",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "NO_FEASIBLE_GRID_DESIGN",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "database": "1009e45c8d18f3a4eeac9cdf.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "race": "packing_slow",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  },
+  {
+    "status": "ALREADY_APPLIED",
+    "committed": 0,
+    "valid": 0,
+    "invalid": 0,
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "database": "5fbb409766b9ed857e1bfe5c.sqlite",
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "race": "duplicate",
+    "method": "literal_full",
+    "policy": "ewdv",
+    "controller": "central_fresh",
+    "deferred": 0
+  }
+]

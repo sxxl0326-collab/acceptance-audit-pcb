@@ -1,0 +1,2837 @@
+[
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.520000000000001,
+      "cycle_time": 40.68420338064584,
+      "wip": 10.456666666666665,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.72,
+      "cycle_time": 61.87637995754985,
+      "wip": 16.12111111111111,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.72,
+      "cycle_time": 86.12209836928959,
+      "wip": 22.37022222222222,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.040000000000001,
+      "cycle_time": 43.938895056856836,
+      "wip": 10.69511111111111,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.626666666666667,
+      "cycle_time": 67.89583893748626,
+      "wip": 17.141333333333336,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.693333333333333,
+      "cycle_time": 93.09313928576962,
+      "wip": 23.841333333333335,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 12.853333333333333,
+      "cycle_time": 49.46796982503407,
+      "wip": 10.911111111111111,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 13.786666666666667,
+      "cycle_time": 77.56436810803835,
+      "wip": 18.25422222222222,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 14.32,
+      "cycle_time": 113.83850810888684,
+      "wip": 28.03622222222222,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.893333333333333,
+      "cycle_time": 39.651199341628875,
+      "wip": 9.31088888888889,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.893333333333333,
+      "cycle_time": 59.92820189150825,
+      "wip": 13.366,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.893333333333333,
+      "cycle_time": 90.37091141023825,
+      "wip": 19.366,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.839999999999998,
+      "cycle_time": 42.38562457317324,
+      "wip": 9.549777777777779,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.906666666666666,
+      "cycle_time": 62.73892033649574,
+      "wip": 13.704666666666666,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.906666666666666,
+      "cycle_time": 93.17618425022027,
+      "wip": 19.717777777777776,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.413333333333334,
+      "cycle_time": 46.64130749551207,
+      "wip": 9.867777777777777,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.76,
+      "cycle_time": 68.41963940723592,
+      "wip": 14.555111111111112,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 11.773333333333333,
+      "cycle_time": 98.85550295193111,
+      "wip": 20.638222222222222,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.84,
+      "cycle_time": 44.67526895537011,
+      "wip": 9.1,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.84,
+      "cycle_time": 69.09368683976321,
+      "wip": 13.105111111111109,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.84,
+      "cycle_time": 105.73725315741217,
+      "wip": 19.10511111111111,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 46.517507928734894,
+      "wip": 9.21488888888889,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 70.9588656180614,
+      "wip": 13.25111111111111,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 107.59835432174687,
+      "wip": 19.251777777777775,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.826666666666668,
+      "cycle_time": 49.33479663644977,
+      "wip": 9.409555555555556,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.88,
+      "cycle_time": 73.89003939333521,
+      "wip": 13.555777777777777,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 9.88,
+      "cycle_time": 110.52084675283398,
+      "wip": 19.567777777777778,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 50.37422833510444,
+      "wip": 9.044444444444444,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 78.8047090370391,
+      "wip": 13.046,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 121.2814181473485,
+      "wip": 19.046,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 51.83530070868553,
+      "wip": 9.106222222222222,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 80.26513831714938,
+      "wip": 13.11488888888889,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 122.74184742745875,
+      "wip": 19.11488888888889,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 53.828953167970724,
+      "wip": 9.224,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 82.22258510680206,
+      "wip": 13.252222222222223,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 124.66986960521912,
+      "wip": 19.25222222222222,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 56.216242055981134,
+      "wip": 9.024222222222223,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 88.48740204267024,
+      "wip": 13.024222222222221,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 136.7607946358062,
+      "wip": 19.024222222222225,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 57.55330344241423,
+      "wip": 9.064,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 89.82446342910332,
+      "wip": 13.067333333333332,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 138.0978560222393,
+      "wip": 19.067333333333334,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.453333333333333,
+      "cycle_time": 59.22735061794194,
+      "wip": 9.136444444444443,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.453333333333333,
+      "cycle_time": 91.48350684418794,
+      "wip": 13.149111111111111,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "nominal",
+    "metrics": {
+      "throughput": 7.453333333333333,
+      "cycle_time": 139.75273520442212,
+      "wip": 19.14911111111111,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 71.51562752427981,
+      "wip": 11.938,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.040000000000001,
+      "cycle_time": 131.45397543945856,
+      "wip": 21.922888888888888,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.040000000000001,
+      "cycle_time": 217.9403725119449,
+      "wip": 36.92977777777778,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.986666666666666,
+      "cycle_time": 71.66501386684439,
+      "wip": 11.890666666666666,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 130.85887414724175,
+      "wip": 21.830444444444442,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 217.55383316996264,
+      "wip": 36.82288888888889,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.773333333333333,
+      "cycle_time": 72.2568935920854,
+      "wip": 11.758000000000001,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.013333333333334,
+      "cycle_time": 129.5053982961479,
+      "wip": 21.580444444444442,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 216.07475872903106,
+      "wip": 36.53022222222222,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 70.08901835371796,
+      "wip": 11.729777777777779,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 128.21017686845542,
+      "wip": 21.598,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 205.42169964922155,
+      "wip": 35.788444444444444,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.959999999999999,
+      "cycle_time": 70.28859453842352,
+      "wip": 11.69088888888889,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 127.69852861433564,
+      "wip": 21.482222222222223,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.026666666666667,
+      "cycle_time": 205.83430684419014,
+      "wip": 35.78177777777778,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.746666666666668,
+      "cycle_time": 70.79137159324526,
+      "wip": 11.559111111111113,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.013333333333334,
+      "cycle_time": 126.37573480283841,
+      "wip": 21.170444444444446,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 10.013333333333334,
+      "cycle_time": 205.4647685664415,
+      "wip": 35.58511111111111,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.773333333333333,
+      "cycle_time": 57.47329538942455,
+      "wip": 10.237333333333334,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.866666666666667,
+      "cycle_time": 87.57405739373355,
+      "wip": 15.562222222222223,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.866666666666667,
+      "cycle_time": 124.22218879658215,
+      "wip": 21.764,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.72,
+      "cycle_time": 59.82809609244851,
+      "wip": 10.379555555555555,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.840000000000002,
+      "cycle_time": 90.77716073972516,
+      "wip": 15.88822222222222,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.840000000000002,
+      "cycle_time": 127.41702916884975,
+      "wip": 22.120666666666665,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.56,
+      "cycle_time": 63.114608085877876,
+      "wip": 10.568,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.826666666666668,
+      "cycle_time": 95.58428276732637,
+      "wip": 16.444444444444443,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 9.840000000000002,
+      "cycle_time": 131.8297254973149,
+      "wip": 22.700666666666667,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 54.53392202179444,
+      "wip": 9.307555555555554,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 82.95144253529337,
+      "wip": 13.350444444444443,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 125.40119023042452,
+      "wip": 19.350444444444445,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.493333333333334,
+      "cycle_time": 56.78262640523082,
+      "wip": 9.437777777777777,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.493333333333334,
+      "cycle_time": 85.20447957717361,
+      "wip": 13.531555555555556,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.493333333333334,
+      "cycle_time": 127.64552174168607,
+      "wip": 19.531555555555556,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 60.015375906057415,
+      "wip": 9.662444444444445,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 88.15511389549602,
+      "wip": 13.805111111111112,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 130.56174058082175,
+      "wip": 19.813111111111112,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 59.15153344590277,
+      "wip": 9.133333333333333,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 91.42351133431931,
+      "wip": 13.138666666666667,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 139.70715038655325,
+      "wip": 19.13866666666667,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 60.90565488910905,
+      "wip": 9.213777777777779,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 93.16908841184592,
+      "wip": 13.232888888888889,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 141.44848575433937,
+      "wip": 19.23288888888889,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 63.14103549683076,
+      "wip": 9.335555555555556,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 95.38568010506674,
+      "wip": 13.384666666666666,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "packing_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 143.651262795958,
+      "wip": 19.384666666666664,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.12,
+      "cycle_time": 17.12246964369503,
+      "wip": 6.562888888888889,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.12,
+      "cycle_time": 17.12246964369503,
+      "wip": 6.630444444444444,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.12,
+      "cycle_time": 17.12246964369503,
+      "wip": 6.6306666666666665,
+      "placer_time": 4.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.133333333333333,
+      "cycle_time": 20.10441188319199,
+      "wip": 6.865111111111111,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.133333333333333,
+      "cycle_time": 20.048352896926485,
+      "wip": 7.0055555555555555,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.133333333333333,
+      "cycle_time": 20.048352896926485,
+      "wip": 7.020222222222222,
+      "placer_time": 4.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.106666666666667,
+      "cycle_time": 28.87779124459082,
+      "wip": 7.9064444444444435,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.146666666666667,
+      "cycle_time": 26.318429390793835,
+      "wip": 7.99088888888889,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 12.146666666666667,
+      "cycle_time": 26.318429390793835,
+      "wip": 8.074444444444444,
+      "placer_time": 4.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.733333333333334,
+      "cycle_time": 29.809825723429878,
+      "wip": 8.006,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.813333333333333,
+      "cycle_time": 41.221576968964584,
+      "wip": 10.579333333333333,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.813333333333333,
+      "cycle_time": 49.90165305010274,
+      "wip": 12.723333333333334,
+      "placer_time": 5.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.64,
+      "cycle_time": 32.92316468142102,
+      "wip": 8.298,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.786666666666667,
+      "cycle_time": 43.92182529782307,
+      "wip": 10.909555555555556,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.786666666666667,
+      "cycle_time": 52.54670143450351,
+      "wip": 13.066222222222223,
+      "placer_time": 5.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.413333333333332,
+      "cycle_time": 39.17539651072363,
+      "wip": 8.911111111111111,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.68,
+      "cycle_time": 49.12163161666567,
+      "wip": 11.726222222222225,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 11.68,
+      "cycle_time": 57.43301248525648,
+      "wip": 13.944222222222223,
+      "placer_time": 5.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 43.111352661712715,
+      "wip": 8.874444444444444,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 67.23536497652596,
+      "wip": 12.852222222222222,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 101.08078853619094,
+      "wip": 18.694,
+      "placer_time": 6.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.853333333333333,
+      "cycle_time": 45.00239490244032,
+      "wip": 8.993333333333332,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.866666666666667,
+      "cycle_time": 69.09232063556527,
+      "wip": 12.996,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.866666666666667,
+      "cycle_time": 102.83173768165324,
+      "wip": 18.838444444444445,
+      "placer_time": 6.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.813333333333334,
+      "cycle_time": 47.89242480697311,
+      "wip": 9.20511111111111,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.893333333333333,
+      "cycle_time": 72.03500692447575,
+      "wip": 13.307555555555558,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 9.893333333333333,
+      "cycle_time": 105.66415615833039,
+      "wip": 19.16133333333333,
+      "placer_time": 6.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 49.898545949843445,
+      "wip": 8.97511111111111,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 78.17038686850135,
+      "wip": 12.955777777777778,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 120.07879139285983,
+      "wip": 18.970444444444443,
+      "placer_time": 7.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 51.36062492791399,
+      "wip": 9.038222222222222,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 79.63182275310108,
+      "wip": 13.026666666666666,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.453333333333333,
+      "cycle_time": 121.54022727745955,
+      "wip": 19.04133333333333,
+      "placer_time": 7.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 53.34017002784415,
+      "wip": 9.155777777777777,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 81.58048102004354,
+      "wip": 13.163333333333332,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 8.466666666666667,
+      "cycle_time": 123.35020289200577,
+      "wip": 19.178,
+      "placer_time": 7.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.413333333333334,
+      "cycle_time": 55.999462845490996,
+      "wip": 8.998,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.413333333333334,
+      "cycle_time": 88.22892783294101,
+      "wip": 12.99088888888889,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.413333333333334,
+      "cycle_time": 136.3094530573746,
+      "wip": 18.98911111111111,
+      "placer_time": 8.0,
+      "inspection_time": 1.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 57.352292608873086,
+      "wip": 9.038222222222222,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 89.57338979778052,
+      "wip": 13.03422222222222,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.426666666666667,
+      "cycle_time": 137.64953215951456,
+      "wip": 19.032444444444447,
+      "placer_time": 8.0,
+      "inspection_time": 2.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 59.023850087745444,
+      "wip": 9.112,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 1.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 91.2295588688462,
+      "wip": 13.117555555555555,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 3.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  },
+  {
+    "config": {
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6
+    },
+    "context": "supply_slow",
+    "metrics": {
+      "throughput": 7.44,
+      "cycle_time": 139.28026195061693,
+      "wip": 19.11577777777778,
+      "placer_time": 8.0,
+      "inspection_time": 3.5,
+      "buffer_capacity": 6.0
+    },
+    "seeds": [
+      1103,
+      2207,
+      3301
+    ]
+  }
+]

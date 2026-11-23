@@ -1,0 +1,734 @@
+[
+  {
+    "id": "pcb_new:00",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Throughput must be at least 9 boards per minute. Mean cycle time must be at most 100 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Throughput must be at least 9 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Mean cycle time must be at most 100 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        9.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:01",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Require a minimum of 10 boards per minute for throughput. For mean cycle time, the maximum is 60 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Require a minimum of 10 boards per minute for throughput."
+      },
+      {
+        "cid": "s1",
+        "text": "For mean cycle time, the maximum is 60 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        10.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:02",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "The mean cycle time cannot exceed 110 seconds. The throughput must reach at least 13 boards per minute.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "The mean cycle time cannot exceed 110 seconds."
+      },
+      {
+        "cid": "s1",
+        "text": "The throughput must reach at least 13 boards per minute."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        13.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:03",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "The throughput must be no less than 8 boards per minute, and mean cycle time must be no more than 100 seconds. Both acceptance requirements are binding.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "The throughput must be no less than 8 boards per minute, and mean cycle time must be no more than 100 seconds."
+      },
+      {
+        "cid": "s1",
+        "text": "Both acceptance requirements are binding."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        8.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:04",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Accept a design only if throughput is at least 10 boards per minute. Also require mean cycle time to be at most 110 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Accept a design only if throughput is at least 10 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Also require mean cycle time to be at most 110 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        10.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:05",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Production requires throughput of at least 12 boards per minute. Quality requires mean cycle time of at most 80 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Production requires throughput of at least 12 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Quality requires mean cycle time of at most 80 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        12.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:06",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Throughput must be at least 11 boards per minute. Mean cycle time must be at most 60 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Throughput must be at least 11 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Mean cycle time must be at most 60 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        11.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:07",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Require a minimum of 12 boards per minute for throughput. For mean cycle time, the maximum is 90 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Require a minimum of 12 boards per minute for throughput."
+      },
+      {
+        "cid": "s1",
+        "text": "For mean cycle time, the maximum is 90 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        12.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:08",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "The mean cycle time cannot exceed 100 seconds. The throughput must reach at least 8 boards per minute.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "The mean cycle time cannot exceed 100 seconds."
+      },
+      {
+        "cid": "s1",
+        "text": "The throughput must reach at least 8 boards per minute."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        8.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:09",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "The throughput must be no less than 12 boards per minute, and mean cycle time must be no more than 110 seconds. Both acceptance requirements are binding.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "The throughput must be no less than 12 boards per minute, and mean cycle time must be no more than 110 seconds."
+      },
+      {
+        "cid": "s1",
+        "text": "Both acceptance requirements are binding."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        12.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:10",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Accept a design only if throughput is at least 13 boards per minute. Also require mean cycle time to be at most 90 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Accept a design only if throughput is at least 13 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Also require mean cycle time to be at most 90 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        13.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  },
+  {
+    "id": "pcb_new:11",
+    "dataset": "authored_pcb",
+    "split": "test",
+    "text": "Production requires throughput of at least 11 boards per minute. Quality requires mean cycle time of at most 90 seconds.",
+    "sentences": [
+      {
+        "cid": "s0",
+        "text": "Production requires throughput of at least 11 boards per minute."
+      },
+      {
+        "cid": "s1",
+        "text": "Quality requires mean cycle time of at most 90 seconds."
+      }
+    ],
+    "variables": [
+      "throughput",
+      "mean cycle time"
+    ],
+    "aliases": {
+      "throughput": 0,
+      "mean cycle time": 1,
+      "cycle time": 1
+    },
+    "objective": {
+      "coefficients": [
+        0.0,
+        0.0
+      ],
+      "sense": "minimize"
+    },
+    "gold": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "reference": {
+      "status": 0,
+      "x": [
+        11.0,
+        0.0
+      ],
+      "value": 0.0
+    },
+    "origin": "author-generated integration scenario, not natural user data"
+  }
+]

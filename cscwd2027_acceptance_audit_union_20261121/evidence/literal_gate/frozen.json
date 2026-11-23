@@ -1,0 +1,13 @@
+{
+  "cscwd2027_acceptance_audit_union_20261121/literal_gate_replay.py": "2a544eecfbaabd2d3d3f9319c2dcf0272d3338c1287a83334b0285c45dd0b689",
+  "cscwd2027_acceptance_audit_union_20261121/audit.py": "d5251906923fe0519222ffcbb384c2802cc26a287d0d72281e3814fe50e95b68",
+  "cscwd2027_acceptance_audit_direction_20261120/direction_replay.py": "21d32cf1b7fa4f94ae8238a7c228c628425fa6e6fb95c1edc331f48fc918e450",
+  "cscwd2027_acceptance_audit_direction_20261120/replay/records.jsonl": "07fd631b57c0e85bee8b4eb7fdf20bb13038911d20bcdfd30d1418948e5b095c",
+  "cscwd2027_acceptance_audit_union_20261121/evidence/union_records.json": "7c73af492bd261ac7146b971185febe30f33177129ae9e8d491a7194977f4be4",
+  "cscwd2027_audit_semantics_policy_revision_20261029/policy_replay/contract_diagnostics.json": "923950c93a3aaeb7f1aeb9bd0b97ab98267df8bcc5c11da2f62cb21b2403b268",
+  "cscwd2027_acceptance_audit_revision_20261029/engineering_cases.json": "3dc968da007384ace375922f7c88068b97469f0d5061232e8af68d72b695ab10",
+  "cscwd2027_acceptance_audit_revision_20261029/formulas_engineering/raw.jsonl": "6077c26dd82871580de95b61291ede5d541d37e113a1ae5f82e52188bb9101a8",
+  "cscwd2027_acceptance_audit_revision_20261029/engineering_language/raw.jsonl": "dcc8715a87aad46d24198ec850151b5815dc8be62b4f17b204ace0d6c3b8425c",
+  "cscwd2027_acceptance_audit_revision_20261029/backend/runtime.py": "7f528f0f16797e14fa7e0f9d5c152b2358df395228d494e024fd54f2d58905d4",
+  "cscwd2027_acceptance_audit_revision_20261029/backend/simulation_table.json": "4e2e48b5cd14e7d177fe9ed607cd83bfe06ab4058a8f4420e5a2e2ad9e1c10e3"
+}

@@ -1,0 +1,4138 @@
+[
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 9.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=9.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=100.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "9"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "100"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 9.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 9.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 9.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 100.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 9.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 9.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:00",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 9.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=10"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=60"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "10"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "60"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 10.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 60.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:01",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1<=110"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x0>=13"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "110"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "13"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          -1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          -1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1 <= 110.0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x0 >= 13.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s0n0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x0 >= q_throughput_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:02",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=8.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1<=100.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0>=q_limit_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n1"
+        ],
+        "formula": "x1<=q_limit_time_s0n1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          -1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          -1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 8.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1 <= 100.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_limit_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n1"
+        ],
+        "formula": "x1 <= q_limit_time_s0n1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:03",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=10.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=110.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "10"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "110"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 10.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 110.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 10.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:04",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 10.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=12.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 80.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=80.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "12"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "80"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 80.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 12.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 80.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 80.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 80.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 80.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:05",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 80.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=11.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=60.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "11"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "60"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          -1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          -1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 11.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 60.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 60.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:06",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 60.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=12"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=90"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "12"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "90"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 12.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 90.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:07",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1<=100"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x0>=8"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "100"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "8"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1 <= 100.0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x0 >= 8.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s0n0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x0 >= q_throughput_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 100.0,
+        "cmp": "le",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 8.0,
+        "cmp": "ge",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:08",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 8.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 100.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=12.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1<=110.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0>=q_limit_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n1"
+        ],
+        "formula": "x1<=q_limit_time_s0n1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 12.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x1 <= 110.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_limit_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0",
+        "source_qids": [
+          "s0n1"
+        ],
+        "formula": "x1 <= q_limit_time_s0n1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 12.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 110.0,
+        "cmp": "le",
+        "cid": "s0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:09",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 12.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 110.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=13.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=90.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "13"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "90"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 13.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 90.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 13.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:10",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 13.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0>=11.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1<=90.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "parametric_full",
+    "contract": [],
+    "final_diagnostics": [
+      {
+        "record": 0,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "record": 1,
+        "type": "formula_binding",
+        "detail": "free coefficient: use a source symbol"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s0n0",
+        "cid": "s0",
+        "surface": "11"
+      },
+      {
+        "type": "uncovered_boundary",
+        "qid": "s1n0",
+        "cid": "s1",
+        "surface": "90"
+      }
+    ],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:4b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "numeric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "numeric_feedback",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "literal_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [],
+        "formula": "x0 >= 11.0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [],
+        "formula": "x1 <= 90.0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "parametric_full",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0",
+        "source_qids": [
+          "s0n0"
+        ],
+        "formula": "x0 >= q_throughput_s0n0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1",
+        "source_qids": [
+          "s1n0"
+        ],
+        "formula": "x1 <= q_mean_cycle_time_time_s1n0"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "post_review_source_only"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "explicit_unit_rules",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "b": 11.0,
+        "cmp": "ge",
+        "cid": "s0"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "b": 90.0,
+        "cmp": "le",
+        "cid": "s1"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  },
+  {
+    "id": "pcb_new:11",
+    "model": "qwen3.5:9b",
+    "method": "gold",
+    "contract": [
+      {
+        "a": [
+          1.0,
+          0.0
+        ],
+        "cmp": "ge",
+        "b": 11.0,
+        "cid": "reference"
+      },
+      {
+        "a": [
+          0.0,
+          1.0
+        ],
+        "cmp": "le",
+        "b": 90.0,
+        "cid": "reference"
+      }
+    ],
+    "final_diagnostics": [],
+    "diagnostic_scope": "not_applicable_no_model_review"
+  }
+]

@@ -1,0 +1,1339 @@
+{
+  "sha256": {
+    "cscwd2027_acceptance_audit_direction_20261120/direction_replay.py": "21d32cf1b7fa4f94ae8238a7c228c628425fa6e6fb95c1edc331f48fc918e450",
+    "cscwd2027_acceptance_audit_direction_20261120/PROTOCOL.md": "e7957d43aa19a8f227f484ea84092c008f6fde422e7ccc6c81c845de25a3f7dc",
+    "cscwd2027_acceptance_audit_review_20261120/gate_challenge/frozen.json": "c5e06a054552c18fa1a78642cad4ba5236a18b7a895c7d7fe852240691c712e3",
+    "cscwd2027_audit_semantics_policy_revision_20261029/policy_replay/contract_diagnostics.json": "923950c93a3aaeb7f1aeb9bd0b97ab98267df8bcc5c11da2f62cb21b2403b268",
+    "cscwd2027_audit_semantics_policy_revision_20261029/policy_replay/records.jsonl": "d4bd0e68479f4b2fe8a08054cf85315f679402e2971eb3dbebcd6724c0057935",
+    "cscwd2027_audit_semantics_policy_revision_20261029/replay_policies.py": "261814acc309a4cfa60e74207960580bc8090a32e111f15128cd9a00e659438e",
+    "cscwd2027_acceptance_audit_revision_20261029/engineering_cases.json": "3dc968da007384ace375922f7c88068b97469f0d5061232e8af68d72b695ab10",
+    "cscwd2027_acceptance_audit_revision_20261029/engineering_execute.py": "ff26f336cdffc1d8ff9fcb77d9a177c22ac93c7d553f882241de7067204680c5",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/simulator.py": "1e42be3578968108ed3a92189d3d1034fa2f5c02f541af2b98c132c2574fd964",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/contracts.py": "1cd8890522e4be719616a9a9073503f263ad42c8d2b246d2d02066e784620f19",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/runtime.py": "7f528f0f16797e14fa7e0f9d5c152b2358df395228d494e024fd54f2d58905d4",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/simulation_table.json": "4e2e48b5cd14e7d177fe9ed607cd83bfe06ab4058a8f4420e5a2e2ad9e1c10e3",
+    "cscwd2027_acceptance_audit_revision_20261029/backend/simulation_manifest.json": "c15f70d1e206f90a3f2701b85280e15222e9b39995477ffc0b77596bb17531eb"
+  },
+  "new_fixtures": [
+    {
+      "id": "probe-0-0",
+      "block": "inverted",
+      "source": "Throughput must be at least 7.25 boards per minute. Mean cycle time must be at most 85 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 85,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 85,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-0-1",
+      "block": "inverted",
+      "source": "Require a minimum of 9.25 boards per minute for throughput. For cycle time, the maximum is 105 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 105,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "le",
+          "b": 105,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-0-2",
+      "block": "inverted",
+      "source": "The throughput must be no less than 11.25 boards per minute. The mean cycle time cannot exceed 125 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 125,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 125,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-0-3",
+      "block": "inverted",
+      "source": "Production sets a throughput floor of 13.25 boards per minute. Quality sets a cycle time ceiling of 165 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 165,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.25,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "le",
+          "b": 165,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-1-0",
+      "block": "equivalent",
+      "source": "Throughput must be at least 7.35 boards per minute. Mean cycle time must be at most 86 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 86,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "le",
+          "b": -7.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "ge",
+          "b": -86,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-1-1",
+      "block": "equivalent",
+      "source": "Require a minimum of 9.35 boards per minute for throughput. For cycle time, the maximum is 106 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 106,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "le",
+          "b": -9.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "ge",
+          "b": -106,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-1-2",
+      "block": "equivalent",
+      "source": "The throughput must be no less than 11.35 boards per minute. The mean cycle time cannot exceed 126 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 126,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "le",
+          "b": -11.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "ge",
+          "b": -126,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-1-3",
+      "block": "equivalent",
+      "source": "Production sets a throughput floor of 13.35 boards per minute. Quality sets a cycle time ceiling of 166 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 166,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            -1,
+            0
+          ],
+          "cmp": "le",
+          "b": -13.35,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "ge",
+          "b": -166,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-2-0",
+      "block": "wrong_threshold",
+      "source": "Throughput must be at least 7.45 boards per minute. Mean cycle time must be at most 87 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 87,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 122,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-2-1",
+      "block": "wrong_threshold",
+      "source": "Require a minimum of 9.45 boards per minute for throughput. For cycle time, the maximum is 107 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 107,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 142,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-2-2",
+      "block": "wrong_threshold",
+      "source": "The throughput must be no less than 11.45 boards per minute. The mean cycle time cannot exceed 127 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 127,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 162,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-2-3",
+      "block": "wrong_threshold",
+      "source": "Production sets a throughput floor of 13.45 boards per minute. Quality sets a cycle time ceiling of 167 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 167,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.45,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 202,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-3-0",
+      "block": "misbound",
+      "source": "Throughput must be at least 7.55 boards per minute. Mean cycle time must be at most 88 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.55,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 88,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "ge",
+          "b": 7.55,
+          "cid": "s1"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 88,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-3-1",
+      "block": "misbound",
+      "source": "Require a minimum of 9.55 boards per minute for throughput. For cycle time, the maximum is 108 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.55,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 108,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "ge",
+          "b": 9.55,
+          "cid": "s1"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 108,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-3-2",
+      "block": "misbound",
+      "source": "The throughput must be no less than 11.55 boards per minute. The mean cycle time cannot exceed 128 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.55,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 128,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "ge",
+          "b": 11.55,
+          "cid": "s1"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 128,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-3-3",
+      "block": "misbound",
+      "source": "Production sets a throughput floor of 13.55 boards per minute. Quality sets a cycle time ceiling of 168 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.55,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 168,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "ge",
+          "b": 13.55,
+          "cid": "s1"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 168,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "probe-4-0",
+      "block": "warned_partial",
+      "source": "Throughput must be at least 7.65 boards per minute. Mean cycle time must be at most 89 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.65,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 89,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.65,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1",
+          "role": "quality"
+        }
+      ]
+    },
+    {
+      "id": "probe-4-1",
+      "block": "warned_partial",
+      "source": "Require a minimum of 9.65 boards per minute for throughput. For cycle time, the maximum is 109 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.65,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 109,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.65,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1",
+          "role": "quality"
+        }
+      ]
+    },
+    {
+      "id": "probe-4-2",
+      "block": "warned_partial",
+      "source": "The throughput must be no less than 11.65 boards per minute. The mean cycle time cannot exceed 129 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.65,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 129,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.65,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1",
+          "role": "quality"
+        }
+      ]
+    },
+    {
+      "id": "probe-4-3",
+      "block": "warned_partial",
+      "source": "Production sets a throughput floor of 13.65 boards per minute. Quality sets a cycle time ceiling of 169 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.65,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 169,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.65,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1",
+          "role": "quality"
+        }
+      ]
+    },
+    {
+      "id": "probe-5-0",
+      "block": "silent_empty",
+      "source": "Throughput must be at least 7.75 boards per minute. Mean cycle time must be at most 90 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 7.75,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 90,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    },
+    {
+      "id": "probe-5-1",
+      "block": "silent_empty",
+      "source": "Require a minimum of 9.75 boards per minute for throughput. For cycle time, the maximum is 110 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.75,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 110,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    },
+    {
+      "id": "probe-5-2",
+      "block": "silent_empty",
+      "source": "The throughput must be no less than 11.75 boards per minute. The mean cycle time cannot exceed 130 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 11.75,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 130,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    },
+    {
+      "id": "probe-5-3",
+      "block": "silent_empty",
+      "source": "Production sets a throughput floor of 13.75 boards per minute. Quality sets a cycle time ceiling of 170 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 13.75,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 170,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    }
+  ],
+  "old_fixtures": [
+    {
+      "id": "empty_warned-tight",
+      "block": "empty_warned",
+      "source": "Require throughput of at least 8.5 boards per minute. Require mean cycle time of at most 102 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 102,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1"
+        },
+        {
+          "type": "uncovered_boundary",
+          "cid": "s0"
+        }
+      ]
+    },
+    {
+      "id": "empty_warned-loose",
+      "block": "empty_warned",
+      "source": "Require throughput of at least 9.5 boards per minute. Require mean cycle time of at most 175 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 175,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1"
+        },
+        {
+          "type": "uncovered_boundary",
+          "cid": "s0"
+        }
+      ]
+    },
+    {
+      "id": "empty_clean-tight",
+      "block": "empty_clean",
+      "source": "Require throughput of at least 8.5 boards per minute. Require mean cycle time of at most 102 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 102,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    },
+    {
+      "id": "empty_clean-loose",
+      "block": "empty_clean",
+      "source": "Require throughput of at least 9.5 boards per minute. Require mean cycle time of at most 175 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 175,
+          "cid": "s1"
+        }
+      ],
+      "rows": [],
+      "warnings": []
+    },
+    {
+      "id": "nonempty_warned-tight",
+      "block": "nonempty_warned",
+      "source": "Require throughput of at least 8.5 boards per minute. Require mean cycle time of at most 102 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 102,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "nonempty_warned-loose",
+      "block": "nonempty_warned",
+      "source": "Require throughput of at least 9.5 boards per minute. Require mean cycle time of at most 175 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 175,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "uncovered_boundary",
+          "cid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "nonempty_clean-tight",
+      "block": "nonempty_clean",
+      "source": "Require throughput of at least 8.5 boards per minute. Require mean cycle time of at most 102 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 102,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 8.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            -1
+          ],
+          "cmp": "le",
+          "b": 102,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "nonempty_clean-loose",
+      "block": "nonempty_clean",
+      "source": "Require throughput of at least 9.5 boards per minute. Require mean cycle time of at most 175 seconds.",
+      "gold": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 175,
+          "cid": "s1"
+        }
+      ],
+      "rows": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "cmp": "ge",
+          "b": 9.5,
+          "cid": "s0"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "cmp": "le",
+          "b": 175,
+          "cid": "s1"
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}
